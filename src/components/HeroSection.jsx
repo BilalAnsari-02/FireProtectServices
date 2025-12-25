@@ -23,14 +23,14 @@ export default function HeroSection() {
 
           <div className="flex space-x-4">
             <a
-              href="tel:9876543210"
+              href="tel:8055841109"
               className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg"
             >
               📞 Call Now
             </a>
 
             <a
-              href="https://wa.me/9876543210"
+              href="https://wa.me/8055841109"
               className="bg-white hover:bg-gray-200 text-red-600 px-6 py-3 rounded-lg text-lg font-semibold shadow-lg"
             >
               💬 WhatsApp

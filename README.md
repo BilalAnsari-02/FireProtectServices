@@ -1,21 +1,60 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔥 Fire Protect Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional fire safety products and services website.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fire Protect Services is a partner of Fire India Services, offering fire extinguishers, refilling services, safety inspections, and equipment across Maharashtra and Bihar since 2015.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- Tailwind CSS
+- Web3Forms (Contact form)
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# FireProtectServices
-🔥 Fire safety products &amp; services platform - Fire extinguishers, refilling, inspections &amp; equipment. Serving Maharashtra &amp; Bihar since 2015. React + Vite + Tailwind CSS
->>>>>>> aa88a7cd8dc0b47522b73dd450513a21ad48ce9c
+1. Clone the repository
+```bash
+git clone https://github.com/BilalAnsari-02/FireProtectServices.git
+cd FireProtectServices
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Create `.env` file
+```bash
+cp .env.example .env
+```
+
+4. Add your Web3Forms access key in `.env`
+```env
+VITE_WEB3FORMS_ACCESS_KEY=your_key_here
+```
+
+5. Run development server
+```bash
+npm run dev
+```
+
+## Features
+
+- 🧯 Product catalog (Fire extinguishers, safety equipment)
+- 🔄 Service offerings (Refilling, inspection, installation)
+- 📧 Contact form with email integration
+- 📱 Fully responsive design
+- 🎨 Modern UI with Tailwind CSS
+
+## Contact
+
+- **Phone:** 8055841109
+- **Email:** fireprotectservices3@gmail.com
+- **Location:** Bhiwandi, Maharashtra
+
+## License
+
+MIT License
